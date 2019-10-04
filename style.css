@@ -3,7 +3,7 @@
   width: 80%;
 
 }
-.calendar-block {
+.calendar {
   font-family: 'Montserrat', sans-serif;
   background: #dedede;
   height: auto;
@@ -53,7 +53,7 @@
   color: #b5b5b5;
 }
 
-.calendar-day.calendar-nextmonth {
+.calendar-day.calendar-othermonth {
   color: #b5b5b5;
 }
 
@@ -63,38 +63,38 @@
   color: #ededed;
 }
 
-.calendar-block.calendar-dark {
+.calendar.calendar-dark {
   background: black;
 }
 
-.calendar-head.calendar-dark {
+.calendar.calendar-dark .calendar-head {
   background: #4f4f4f;
 }
 
-.calendar-month.calendar-dark {
+.calendar.calendar-dark .calendar-month {
   background: #4f4f4f;
   color: #ededed;
 }
 
-.calendar-weekday-block.calendar-dark {
+.calendar.calendar-dark .calendar-weekday-block {
   background: black;
 }
 
-.calendar-day.calendar-dark {
+.calendar.calendar-dark .calendar-day {
   background: #4f4f4f;
   color: #ededed;
 }
 
-.calendar-day.calendar-weekend.calendar-dark {
+.calendar.calendar-dark .calendar-day.calendar-weekend {
   background: #5e5e5e;
   color: #adadad;
 }
 
-.calendar-day.calendar-nextmonth.calendar-dark {
+.calendar.calendar-dark .calendar-day.calendar-othermonth {
   color: #706f6f;
 }
 
-.calendar-weekday-item.calendar-weekend.calendar-dark {
+.calendar.calendar-dark .calendar-weekday-item.calendar-weekend {
   background: #4f4f4f;
   color: #ff4040;
 }
